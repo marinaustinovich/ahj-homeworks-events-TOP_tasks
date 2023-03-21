@@ -1,5 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/mjr6wascg6wb5kiq/branch/main?svg=true)](https://ci.appveyor.com/project/marinaustinovich/ahj-homeworks-events-top-tasks/branch/main)
 
+deployment: https://marinaustinovich.github.io/ahj-homeworks-events-TOP_tasks/
 ### TOP Tasks
 
 #### Легенда
