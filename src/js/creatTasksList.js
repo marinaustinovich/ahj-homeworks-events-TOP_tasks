@@ -1,4 +1,4 @@
-export default function creatTaskstList(data, containerEl, elementTag, isClass = false) {
+export default function creatTasksList(data, containerEl, elementTag, isClass = false) {
   const el = document.createElement(elementTag);
   el.setAttribute('data-pin', data.pin);
   el.setAttribute('id', data.id);

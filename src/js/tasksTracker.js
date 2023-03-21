@@ -1,4 +1,4 @@
-import creatTaskstList from './creatTasksList';
+import creatTasksList from './creatTasksList';
 import { filterBy } from './filter';
 import showModal from './modal';
 import Task from './Task';
@@ -107,7 +107,7 @@ export default class TasksTracker {
     if (filterArray.length === 0) {
       this.allNoTask.classList.remove('inactive');
     }
-    filterArray.forEach((el) => creatTaskstList(el, this.all, this.tag));
+    filterArray.forEach((el) => creatTasksList(el, this.all, this.tag));
   }
 
   showAllTasks(pin) {
@@ -130,7 +130,7 @@ export default class TasksTracker {
     if (tasksAfterFilter.length === this.tasks.length) {
       activeEl.classList.remove('inactive');
     }
-    tasksAfterFilter.forEach((o) => creatTaskstList(o, array, this.tag, isClass));
+    tasksAfterFilter.forEach((o) => creatTasksList(o, array, this.tag, isClass));
   }
 
   redraw(e, pin, array) {
