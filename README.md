@@ -1,13 +1,13 @@
+### TOP Tasks
+
 [![Build status](https://ci.appveyor.com/api/projects/status/mjr6wascg6wb5kiq/branch/main?svg=true)](https://ci.appveyor.com/project/marinaustinovich/ahj-homeworks-events-top-tasks/branch/main)
 
 deployment: https://marinaustinovich.github.io/ahj-homeworks-events-TOP_tasks/
-### TOP Tasks
-
 #### Легенда
 
 Трекер задач, в котором есть возможность отображать назначенные пользователю задачи. Выглядит это примерно так:
 
-![](./pic/tasks.png)
+![](./src/img/tasks.png)
 
 Проектировщики и заказчик приложения решили, что пользователь может фильтровать и добавлять задачи с помощью поля ввода. Некоторые задачи можно закреплять (pin).
 

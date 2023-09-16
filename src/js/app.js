@@ -1,4 +1,4 @@
-import TasksTracker from './tasksTracker';
+import TasksTracker from './components/tasks-tracker/TasksTracker';
 
 /* eslint-disable */
 console.log('it works!');
